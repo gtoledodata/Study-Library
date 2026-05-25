@@ -1,8 +1,10 @@
 ## Regex Instructions
 
+## Types of characters
+
 .   any character, except new line
 \d  any digit (0-9)
-\D  Any character that is not a difit
+\D  Any character that is not a digit
 \w  Any alphanumeric character
 \W  Any non alphanumeric character
 \s  Any blank space
@@ -10,12 +12,16 @@
 
 \b word limit \b
 
+## Examples of characters
+
 [abc]
 [ˆabc] Not "a", "b", "c"
 [a-z] Any from a to z
 [A-Z] Any from a to z (Uppercase)
 [0-9] Any 0 to 9 digit
 [a-zA-Z] Any letter (upper or lower case)
+
+## Usage of character
 
 * 0+ instances
 + 1+ instances
@@ -47,3 +53,5 @@
  re.findall(r"\d+", "I have 3 cats and 2 dogs") -> ["3", "2"]
 
  re.sub(r"\d", "#", "Meu número é 1234") -> My number is ####
+
+ re.fullmatch(r'[A-Z][a-z]*')
