@@ -1,4 +1,4 @@
-## Declaring variables
+## A program to compare sales of apples and bananas and print which one had more sales, or if they were tied.
 
 apples = int(input("Type how many apples were sold :"))
 bananas = int(input("Type how many bananas were sold :"))

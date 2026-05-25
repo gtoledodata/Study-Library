@@ -1,3 +1,5 @@
+## A program to validate a name entered by the user, ensuring that it starts with a capital letter and only contains letters, using regular expressions.
+
 name = input("Enter a name: ")
 
 import re

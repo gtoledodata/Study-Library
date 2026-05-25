@@ -1,3 +1,5 @@
+## A program to take a word input from the user and print the first three and last three letters of the word.
+
 word = input("Enter a word: ")
 
 import re 

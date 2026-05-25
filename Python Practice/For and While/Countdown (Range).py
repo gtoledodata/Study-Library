@@ -1,3 +1,4 @@
+## A program to simulate a countdown for a sale event, printing different messages based on the remaining seconds.
 
 for i in range(10, 0, -1):
     if i % 2 == 0:

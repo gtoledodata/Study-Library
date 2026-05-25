@@ -1,3 +1,5 @@
+## A program to validate user login credentials, ensuring the username is at least 5 characters long and the password is at least 8 characters long.
+
 while True:
 
     username = input("Enter your username: ")

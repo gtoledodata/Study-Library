@@ -1,3 +1,4 @@
+## A program to track inventory levels and simulate sales until the inventory is depleted.
 Inventory = 5
 
 while Inventory > 0:

@@ -1,4 +1,5 @@
-# Student Grade Calculator
+# A program to calculate the average score of a student based on three scores entered by the user, and determine if the student passed, needs improvement, or failed based on the average score.
+
 score_1 = float(input("Enter the first score: "))
 score_2 = float(input("Enter the second score: "))
 score_3 = float(input("Enter the third score: "))

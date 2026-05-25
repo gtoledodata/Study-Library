@@ -1,3 +1,5 @@
+## A program to manage a book inventory and print available books.
+
 books =[
     {"title": "1984", "inventory": 12},
     {"title": "To Kill a Mockingbird", "inventory": 0},

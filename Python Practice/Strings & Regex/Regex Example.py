@@ -1,3 +1,5 @@
+## A program to find an email address in a given text using regular expressions and print it if found.
+
 import re
 
 text = "Get in touch with us at test@email.com"

@@ -1,3 +1,5 @@
+## A program to validate a URL entered by the user, ensuring that it follows a standard URL format, using regular expressions.
+
 url = input("Enter a URL to validate: ")
 
 import re
