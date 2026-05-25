@@ -55,3 +55,7 @@
  re.sub(r"\d", "#", "Meu número é 1234") -> My number is ####
 
  re.fullmatch(r'[A-Z][a-z]*')
+
+ You can use groups in regex:
+
+ r'(\w+) (\w+) - (\d{4})

@@ -2,5 +2,5 @@
 
 product_name = input("Enter the product name: ")
 
-adjusted_name = product.strip().lower()
+adjusted_name = product_name.strip().lower()
 print("Adjusted product name:", adjusted_name)
